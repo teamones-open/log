@@ -1,0 +1,23 @@
+{
+    "name": "teamones/log",
+    "description": "record runtime log",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Weijer Cheng",
+            "email": "weiwei163@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "workerman/workerman": "^4.0.4",
+        "monolog/monolog": "^2.2",
+        "yurunsoft/yurun-http": "~3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "teamones\\": "src/"
+        }
+    }
+}
